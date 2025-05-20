@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <style>
+            h1{
+                color :aquamarine;
+            }
+            h1,body{ /* #group selector
+                /* background-color :blueviolet; */
+                color: rgb(41, 135, 135);
+            }
+            .yuva{
+                background-color: rgb(181, 118, 40);
+            }
+            #box{
+                color :rgb(179, 51, 51);
+            }
+            *{
+                /* background-color: rgb(14, 11, 17); */
+            }
+
+            /* Moving object background */
+            body {
+                position: relative;
+                overflow: hidden;
+                background-color: #000;
+                color: rgb(41, 135, 135);
+            }
+
+            body::before {
+                content: "";
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                background: radial-gradient(circle at center, rgba(255,255,255,0.3) 10px, transparent 11px);
+                background-size: 40px 40px;
+                animation: moveObject 10s linear infinite;
+                z-index: -1;
+            }
+
+            @keyframes moveObject {
+                0% {
+                    background-position: 0 0;
+                }
+                100% {
+                    background-position: 100vw 100vh;
+                }
+            }
+        /* Moving object background */
+        body {
+            position: relative;
+            overflow: hidden;
+            background-color: #000;
+            color: rgb(41, 135, 135);
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: radial-gradient(circle at center, rgba(255,255,255,0.3) 10px, transparent 11px);
+            background-size: 40px 40px;
+            animation: moveObject 10s linear infinite;
+            z-index: -1;
+        }
+
+        @keyframes moveObject {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 100vw 100vh;
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Hello</h1>
+        <p class="amar">HI YUVA</p>
+        <h1 id="box">3251</h1>
+
+    </body>
+</html>
