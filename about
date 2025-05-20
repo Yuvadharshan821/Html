@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>About Us - Mother Teressa Institute Of Technology</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background: url('college.jpg') no-repeat center center fixed;
+                background-size: cover;
+                color: #fff;
+            }
+            .header {
+                background-color: #1b0122;
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+                border-bottom: 5px solid #4CAF50;
+            }
+            nav {
+                background-color: #4CAF50;
+                overflow: hidden;
+            }
+            nav a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+                font-size: 18px;
+            }
+            nav a:hover {
+                background-color: #45a049;
+            }
+            .content {
+                max-width: 900px;
+                margin: 30px auto;
+                background-color: white;
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            h1 {
+                color: #1b0122;
+            }
+            p {
+                font-size: 18px;
+                line-height: 1.6;
+                color: #333;
+            }
+            footer {
+                background-color: #1b0122;
+                color: white;
+                text-align: center;
+                padding: 15px 0;
+                margin-top: 40px;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <h1>About Mother Teressa Institute Of Technology</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="content">
+            <p>
+                Mother Teressa Institute Of Technology is a premier engineering college committed to excellence in education, research, and innovation. Established in 1995, our institute has been nurturing talented engineers who contribute significantly to the industry and society.
+            </p>
+            <p>
+                Our campus is equipped with state-of-the-art laboratories, modern classrooms, and a vibrant community of faculty and students. We offer a range of undergraduate and postgraduate programs in various engineering disciplines.
+            </p>
+            <p>
+                We emphasize holistic development through academic rigor, extracurricular activities, and industry collaborations. Our dedicated faculty members are passionate about teaching and mentoring students to achieve their full potential.
+            </p>
+        </div>
+        <footer>
+            &copy; 2024 Mother Teressa Institute Of Technology. All rights reserved.
+        </footer>
+    </body>
+</html>
