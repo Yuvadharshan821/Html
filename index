@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background: url('college.jpg') no-repeat center center fixed;
+                background-size: cover;
+                color: #fff;
+            }
+            .header {
+                background-color: #1b0122;
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+                border-bottom: 5px solid #4CAF50;
+            }
+            .header img {
+                vertical-align: middle;
+                border-radius: 50%;
+            }
+            .header h1 {
+                display: inline;
+                font-size: 40px;
+                margin-left: 20px;
+                vertical-align: middle;
+            }
+            nav {
+                background-color: #4CAF50;
+                overflow: hidden;
+            }
+            nav a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+                font-size: 18px;
+            }
+            nav a:hover {
+                background-color: #45a049;
+            }
+            .marquee-container {
+                background-color: #ddd;
+                padding: 10px 0;
+                font-size: 18px;
+                color: #333;
+                font-weight: bold;
+            }
+            .content {
+                display: flex;
+                justify-content: space-around;
+                margin: 20px;
+            }
+            .content .box {
+                background-color: white;
+                border-radius: 15px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                padding: 20px;
+                width: 30%;
+                text-align: center;
+            }
+            .content .box h2 {
+                color: #1b0122;
+            }
+            .content .box ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            .content .box ul li {
+                margin: 10px 0;
+            }
+            .content .box ul li a {
+                color: #4CAF50;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .content .box ul li a:hover {
+                text-decoration: underline;
+            }
+            footer {
+                background-color: #1b0122;
+                color: white;
+                text-align: center;
+                padding: 15px 0;
+                margin-top: 40px;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <img src="logo.png" alt="Institute Logo" width="100" height="100">
+            <h1>Mother Teressa Institute Of Technology</h1>
+            <div style="float:right; margin-right: 20px; font-size: 20px;">
+                Contact us: 0080808884054
+            </div>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="marquee-container">
+            <marquee>Admissions are open from 20-05-2025 to 09-06-2025</marquee>
+        </div>
+        <div class="content">
+            <div class="box">
+                <h2>Exam Results</h2>
+                <ul>
+                    <li><a href="https://www.google.com/">V Semester results</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h2>Placements</h2>
+                <marquee direction="up" scrollamount="2" style="height: 150px;">
+                    <p>Recent placement drives ongoing.</p>
+                    <p>Top companies visiting campus.</p>
+                    <p>Placement training sessions available.</p>
+                </marquee>
+            </div>
+            <div class="box">
+                <h2>Events / Achievements</h2>
+                <marquee direction="up" scrollamount="2" style="height: 150px;">
+                    <p>Annual Tech Fest scheduled for July.</p>
+                    <p>Student won national coding competition.</p>
+                    <p>New research projects initiated.</p>
+                </marquee>
+            </div>
+        </div>
+        <footer>
+            &copy; 2024 Mother Teressa Institute Of Technology. All rights reserved.
+        </footer>
+    </body>
+</html>
