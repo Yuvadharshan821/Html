@@ -1,0 +1,88 @@
+html>
+    <head>
+        <title>Courses - Mother Teressa Institute Of Technology</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            .header {
+                background-color: #1b0122;
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+                border-bottom: 5px solid #4CAF50;
+            }
+            nav {
+                background-color: #4CAF50;
+                overflow: hidden;
+            }
+            nav a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+                font-size: 18px;
+            }
+            nav a:hover {
+                background-color: #45a049;
+            }
+            .content {
+                max-width: 900px;
+                margin: 30px auto;
+                background-color: white;
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            h1 {
+                color: #1b0122;
+            }
+            ul {
+                font-size: 18px;
+                color: #333;
+                line-height: 1.6;
+            }
+            footer {
+                background-color: #1b0122;
+                color: white;
+                text-align: center;
+                padding: 15px 0;
+                margin-top: 40px;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Courses Offered</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="content">
+            <ul>
+                <li>Bachelor of Technology (B.Tech) in Computer Science Engineering</li>
+                <li>Bachelor of Technology (B.Tech) in Electronics and Communication Engineering</li>
+                <li>Bachelor of Technology (B.Tech) in Mechanical Engineering</li>
+                <li>Bachelor of Technology (B.Tech) in Civil Engineering</li>
+                <li>Bachelor of Technology (B.Tech) in Electrical Engineering</li>
+                <li>Master of Technology (M.Tech) in Computer Science Engineering</li>
+                <li>Master of Technology (M.Tech) in VLSI Design</li>
+                <li>Master of Technology (M.Tech) in Structural Engineering</li>
+            </ul>
+        </div>
+        <footer>
+            &copy; 2024 Mother Teressa Institute Of Technology. All rights reserved.
+        </footer>
+    </body>
+</html>
